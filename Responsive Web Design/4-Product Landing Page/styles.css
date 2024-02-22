@@ -1,0 +1,166 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  font-size:62.5%;
+}
+body{
+  background-color:#dfe2d7;
+}
+#header{
+  padding:2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  position: sticky;
+  top:0;
+  left:0;
+  background-color:#dfe2d7;
+}
+#header-img{
+  width:6rem;
+  height:auto;
+}
+#nav-bar{
+  display:flex;
+  gap:3rem;
+}
+.nav-link:link,.nav-link:visited{
+  text-decoration: none;
+  font-size:2rem;
+  color:#13160b;
+  font-weight:600;
+}
+.main-header{
+  text-align:center;
+  font-size:3rem;
+  font-weight:700;
+  color:#13160b;
+}
+.header-container{
+  padding:2rem;
+  margin:2rem;
+}
+#form{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+#email{
+  height:3rem;
+  width:30rem;
+  padding:2rem;
+  margin:2rem;
+  border:none;
+  font-size:1.8rem;
+}
+#submit{
+  background-color: #606c38;
+  height:5rem;
+  width:10rem;
+  padding:1rem;
+  font-size:2rem;
+  border:none;
+  color:#dfe2d7;
+  transition: all 0.5s;
+  cursor:pointer;
+}
+#submit:hover{
+  transform:scale(1.05);
+}
+.how-works{
+  margin:5rem auto;
+  padding:2rem;
+  gap:3rem;
+  display:flex;
+  justify-content:center;
+}
+.how-header{
+  font-size:2.5rem;
+  font-weight:600;
+  text-align:center;
+  margin:2rem;
+}
+.how-desc{
+  font-size:1.8rem;
+  font-weight:400;
+  text-align:center;
+  margin:0.5rem;
+}
+.how-box{
+  padding:3rem;
+}
+#video{
+  display:block;
+  width: 60rem;
+  height:45rem;
+  margin:5rem auto;
+}
+.prices{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  gap:2rem;
+  margin: 5rem 5rem;
+}
+.cart{
+  border:1px solid #262b16;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  border-radius: 20px;
+  overflow:hidden;
+}
+.cart-header{
+  background-color:#808960;
+  height: 5rem;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  
+}
+.cart-header-text{
+  font-size:1.8rem;
+  font-weight:600;
+}
+.price{
+  text-align:center;
+  font-size: 2.4rem;
+  margin: 2rem auto;
+  font-weight:700;
+}
+.cart-desc{
+  font-size: 1.6rem;
+  padding:2rem;
+  text-align:center;
+}
+.select{
+  border:none;
+  background-color:#606c38;
+  color: #dfe2d7;
+  margin:2rem;
+  padding: 2rem;
+  transition: all 0.5s;
+  font-size:1.8rem;
+  font-weight:700;
+  letter-spacing: 0.1rem;
+  border-radius: 10px;
+}
+
+.select:hover{ 
+  transform: scale(1.05);
+}
+@media (max-width:70em){
+  .prices{
+    flex-direction:column;
+  }
+  .how-works{
+    flex-direction:column;
+  }
+}

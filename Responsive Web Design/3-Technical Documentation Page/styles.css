@@ -1,0 +1,27 @@
+@media (max-width:700px){
+  html{
+    font-size:14px;
+  }
+}
+
+#navbar{
+  display:flex;
+  flex-direction:column;
+  gap:50px;
+  position:fixed;
+  top: 2;
+  left: 5;
+}
+#main-doc{
+  margin:25px 25px 25px 32%;
+
+}
+
+.nav-link:visited,.nav-link:link{
+  text-decoration: none;
+  color:#000;
+}
+
+.nav-link:hover,.nav-link:active{
+  color:#888;
+}

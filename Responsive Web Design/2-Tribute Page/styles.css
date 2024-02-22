@@ -1,0 +1,62 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+} 
+ 
+ #main{
+   background-color:#d3d6d8;
+   width:100%;
+ }
+ #header{
+   padding:2rem 0;
+   background-color:#202325;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   color:#e2e3e5;
+ }
+ #title{
+   margin:1rem;
+   font-size:3rem;
+   font-weight:700;
+ }
+ #title-desc{
+   font-size:1.6rem;
+   font-weight:500;
+ }
+ #image{
+   display:block;
+   max-width:100%;
+   height:auto;
+   margin:0 auto;
+ }
+ #img-div{
+   margin: 4rem;
+}
+#img-caption{
+  font-size:1.1rem;
+  text-align:center;
+  padding:0.5rem;
+  font-weight:500;
+}
+.tribute{
+  background-color:#202325;
+  padding: 4rem
+}
+#tribute-info{
+  text-align:center;
+  color:#e2e3e5;
+  font-size:2rem;
+}
+#tribute-list{
+  color:#e2e3e5;
+  max-width:70%;
+  min-width:60%;
+  font-size:1.6rem;
+  margin: 5rem auto;
+}
+#tribute-item{
+  margin: 2rem auto;
+}
